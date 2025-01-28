@@ -8,7 +8,6 @@ jobs:
     steps:
       - name: checking_out
         uses: actions/checkout@v4
-        run: echo "checkout done"
       - name: saving artifact
         uses: actions/upload-artifact@v4
         with:
